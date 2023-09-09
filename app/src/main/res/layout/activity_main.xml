@@ -18,13 +18,29 @@
 
     <Button
         android:id="@+id/set_new_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Change Text"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
         android:onClick="buttonClick"
+        android:text="Change Text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.79"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.508" />
+
+    <Button
+        android:id="@+id/set_new_color"
+        android:layout_width="137dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="156dp"
+        android:onClick="changeColor"
+        android:text="Change Color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.713" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

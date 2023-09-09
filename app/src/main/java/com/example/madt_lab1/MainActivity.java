@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.view.View;
+import android.graphics.Color;
 
 
 
@@ -19,4 +20,13 @@ public class MainActivity extends AppCompatActivity {
         TextView tv = findViewById(R.id.textView);
         tv.setText("Completely new text!");
     }
+
+    public void changeColor(View v) {
+        TextView tv = findViewById(R.id.textView);
+        tv.setTextColor(Color.RED);
+    }
+
+    //+---------------------------+
+    //| SAMPLE TEXT FOR REVERTING |
+    //+---------------------------+
 }
