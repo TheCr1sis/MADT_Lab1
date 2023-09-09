@@ -25,4 +25,8 @@ public class MainActivity extends AppCompatActivity {
         TextView tv = findViewById(R.id.textView);
         tv.setTextColor(Color.RED);
     }
+
+    //+---------------------------+
+    //| SAMPLE TEXT FOR REVERTING |
+    //+---------------------------+
 }
